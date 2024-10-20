@@ -35,12 +35,6 @@ test_files\halfcomplexmap.txt,CUS1,"(0, 0)",31,49,,49,,R-R-D-D-D-D-L-L-L-L-U-L-L
 test_files\halfcomplexmap.txt,GBFS,"(0, 0)",30,36,,36,,R-R-D-D-D-D-L-L-L-L-U-L-L-L-L-L-L-L-L-L-U-U-L-L-L-L-L-L-U
 test_files\halfcomplexmap.txt,AS,"(0, 0)",30,36,,36,,R-R-D-D-D-D-L-L-L-L-U-L-L-L-L-L-L-L-L-L-U-U-L-L-L-L-L-L-U
 test_files\halfcomplexmap.txt,CUS2,"(0, 0)",31,33,,33,,R-R-D-D-D-D-L-L-L-L-U-L-L-L-L-L-S-L-L-L-L-U-U-L-L-L-L-L-L-U
-test_files\invalid.txt,DFS,"(2, 2)",0,37,,37,,N/A
-test_files\invalid.txt,BFS,"(2, 2)",0,24,,24,,N/A
-test_files\invalid.txt,CUS1,"(2, 2)",4,2,,2,,R-S-D
-test_files\invalid.txt,GBFS,"(2, 2)",0,24,,24,,N/A
-test_files\invalid.txt,AS,"(2, 2)",0,24,,24,,N/A
-test_files\invalid.txt,CUS2,"(2, 2)",4,2,,2,,D-S-R
 test_files\map.txt,DFS,"(5, 9)",52,60,,60,,U-R-D-D-L-D-D-D-D-D-D-D-R-R-R-D-D-R-R-R-R-R-R-U-U-U-L-U-U-U-U-U-R-U-U-U-L-L-L-L-L-D-D-D-R-D-D-D-D-D-D
 test_files\map.txt,BFS,"(5, 9)",48,84,,84,,D-D-D-D-D-D-D-D-R-R-R-D-D-R-R-R-R-R-R-U-U-U-L-U-U-U-U-U-R-U-U-U-L-L-L-L-L-D-D-D-R-D-D-D-D-D-D
 test_files\map.txt,CUS1,"(5, 9)",49,79,,79,,D-D-D-D-D-D-D-D-R-R-R-D-D-R-R-R-R-R-R-U-U-U-L-U-S-U-U-U-U-R-U-U-U-L-L-L-L-L-D-D-D-R-D-D-D-D-D-D
