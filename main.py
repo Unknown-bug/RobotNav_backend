@@ -22,6 +22,10 @@ def main():
     all_traversed = []  # Changed to list to maintain order
     all_paths = []
     index=0
+    if goals == []:
+        print(f"{filename} {method}")
+        print(f"No goal is reachable; {0}")
+        sys.exit(0)
 
     for goal in goals:
         index += 1
