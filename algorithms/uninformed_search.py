@@ -35,12 +35,13 @@ class BreadthFirstSearch(BaseSearch):
         visited = set()
         total_nodes = 0
         traversed = []
+        current  = Node(self.start[0], self.start[1])
+        traversed.append((current.x, current.y))
+        total_nodes += 1
 
         while queue:
             path = queue.popleft()
-            total_nodes += 1
             current = path[-1]
-            traversed.append((current.x, current.y))
             visited.add((current.x, current.y))
             if (current.x, current.y) == self.goal:
                 return path, total_nodes, traversed
@@ -51,6 +52,7 @@ class BreadthFirstSearch(BaseSearch):
                     queue.append(path + [child_node])
                     visited.add((next_x, next_y))
                     traversed.append((next_x, next_y))
+                    total_nodes += 1
         return [], total_nodes, traversed
 
 # Custom Bidirectional Search Implementation
